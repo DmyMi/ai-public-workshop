@@ -1,0 +1,10 @@
+name: bank-churn-demo
+
+conda_env: python_env.yaml
+
+entry_points:
+  serve:
+    parameters:
+      alias: {type: string, default: champion}
+      port: {type: int, default: 5001}
+    command: "python src/serve.py --alias {alias} --port {port}"

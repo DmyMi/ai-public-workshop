@@ -1,0 +1,13 @@
+mlflow
+scikit-learn
+xgboost-cpu
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+ipykernel
+nbformat
+gradio
+requests
+ipywidgets
